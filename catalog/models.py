@@ -1,5 +1,7 @@
 from django.db import models
 # Create your models here.
+
+from django.urls import reverse
 class Teacher(models.Model):
 	first_name = models.CharField(max_length=200, help_text = "Есімін енгізініз")
 	last_name = models.CharField(max_length=200, help_text = "Тегін енгізініз")

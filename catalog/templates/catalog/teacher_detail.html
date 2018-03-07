@@ -1,0 +1,10 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Title: {{ teacher.first_name}} {{teacher.last_name}}</h1>
+
+  <p><strong>Name:</strong> <a href="">{{ teacher.first_name }}</a></p> 
+  <p><strong>Surname:</strong> <a href="">{{ teacher.last_name }}</a></p> 
+  <p><strong>DOB:</strong> <a href="">{{ teacher.date_of_birth }}</a></p>
+ 
+{% endblock %}

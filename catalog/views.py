@@ -22,3 +22,9 @@ class StudentListView(generic.ListView):
     paginate_by = 2
 class StudentDetailView(generic.DetailView):
     model = Student
+
+class TeacherListView(generic.ListView):
+    model = Teacher
+    paginate_by = 2
+class TeacherDetailView(generic.DetailView):
+    model = Teacher	
